@@ -5,3 +5,17 @@ class TodoItem:
         self.description = description
         self.complete = False
         self.creationDate = datetime.now()
+
+def save(self):
+    return f"False|{self.description}"
+
+def markComplete(self):
+    self.complete = True
+
+
+
+
+def test_empty_todo():
+    try:
+        create_TodoItem("")
+        
